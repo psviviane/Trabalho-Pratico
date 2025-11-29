@@ -42,11 +42,12 @@ while saida.lower() != 'n':
         resultado = calculadora(num1, num2, operação)
         print(f'Resultado da operação: {resultado}')
     except ValueError:
-        print('Inválido! Digite núeros válidos')
+        print('Inválido! Digite números válidos')
     
     #pergunta se deseja sair
     saida = input('Deseja continuar? (S/N): ')
 
 
 print('Programa encerrado')
+
 
