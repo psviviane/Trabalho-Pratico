@@ -35,7 +35,7 @@ def calculadora(num1, num2, operacao):
 while saida.lower() != 'n':
     try:
         #Entrada dos numeros e operação
-        num1 = float(input('Primeirissimo número: '))
+        num1 = float(input('Primeiro número: '))
         num2 = float(input('Segundo número: '))
         operação = input('Opração desejada(+, -, *, / ou nome): ')
         #Calculadora  e resultado
@@ -49,3 +49,4 @@ while saida.lower() != 'n':
 
 
 print('Programa encerrado')
+
